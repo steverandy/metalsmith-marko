@@ -16,7 +16,7 @@ module.exports = options => {
     return template.renderToString(data)
   }
   return (files, metalsmith, callback) => {
-    fileKeys = Object.keys(files).filter(key => {
+    let fileKeys = Object.keys(files).filter(key => {
       return multimatch(key, options.pattern).length > 0
     })
     fileKeys.forEach(key => {
