@@ -40,7 +40,7 @@ metalsmith.use(marko({
 
 ```javascript
 layoutsDirectory: "layouts",
-pattern: ["**/*.marko", "**/*.html"],
+pattern: ["**/*.marko"],
 compilerOptions: {
   writeToDisk: false,
   preserveWhitespace: true
@@ -49,7 +49,7 @@ compilerOptions: {
 
 ### Templates
 
-`layouts/default.html`
+`layouts/default.html.marko`
 
 ```html
 <!DOCTYPE html>
@@ -63,7 +63,7 @@ compilerOptions: {
 </html>
 ```
 
-`pages/index.html`
+`pages/index.html.marko`
 
 ```html
 <article>
