@@ -1,0 +1,39 @@
+{
+  "name": "metalsmith-marko",
+  "version": "0.1.0",
+  "description": "Metalsmith plugin to render files with Marko templates",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steverandy/metalsmith-marko.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "plugin",
+    "template",
+    "marko"
+  ],
+  "author": "Steve Randy Tantra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steverandy/metalsmith-marko/issues"
+  },
+  "homepage": "https://github.com/steverandy/metalsmith-marko#readme",
+  "dependencies": {
+    "marko": "^4.0.0-rc.8",
+    "multimatch": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
+}
