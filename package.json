@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/steverandy/metalsmith-marko#readme",
   "dependencies": {
-    "marko": "^4.0.0-rc.8",
+    "marko": "^4.0.0",
     "multimatch": "^2.1.0"
   },
   "devDependencies": {
